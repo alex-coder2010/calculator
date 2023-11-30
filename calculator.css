@@ -86,7 +86,7 @@ body{
     background-color: hsl(39, 100%, 60%);
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
     .buttons{
         grid-template-columns: repeat(4, 50px);
         grid-template-rows: minmax(50px, auto) repeat(4, 50px);
