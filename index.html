@@ -9,29 +9,32 @@
   <script src="calculator.js" defer></script>
 </head>
 <body>
-  <div class="calculator-grid">
+  <div class="calculator">
     <div class="output">
-      <div data-previous-operand class="previous-operand"></div>
-      <div data-current-operand class="current-operand"></div>
+      <div data-previous-operand class="previous-operand">567 +</div>
+      <div data-current-operand class="current-operand">324</div>
     </div>
-    <button data-all-clear class="span-two">AC</button>
-    <button data-delete>DEL</button>
-    <button data-operation>÷</button>
-    <button data-number>1</button>
-    <button data-number>2</button>
-    <button data-number>3</button>
-    <button data-operation>*</button>
-    <button data-number>4</button>
-    <button data-number>5</button>
-    <button data-number>6</button>
-    <button data-operation>+</button>
-    <button data-number>7</button>
-    <button data-number>8</button>
-    <button data-number>9</button>
-    <button data-operation>-</button>
-    <button data-number>.</button>
-    <button data-number>0</button>
-    <button data-equals class="span-two">=</button>
+
+    <div class = "buttons">
+      <button data-all-clear class="span-two" class = "normal">AC</button>
+      <button data-delete class = "normal">DEL</button>
+      <button data-operation class = "operand">÷</button>
+      <button data-number class = "normal">1</button>
+      <button data-number class = "normal">2</button>
+      <button data-number class = "normal">3</button>
+      <button data-operation class = "operand">*</button>
+      <button data-number class = "normal">4</button>
+      <button data-number class = "normal">5</button>
+      <button data-number class = "normal">6</button>
+      <button data-operation class = "operand">+</button>
+      <button data-number class = "normal">7</button>
+      <button data-number class = "normal">8</button>
+      <button data-number class = "normal">9</button>
+      <button data-operation class = "operand">-</button>
+      <button data-number class = "normal">.</button>
+      <button data-number class = "normal">0</button>
+      <button data-equals class="span-two" class = "normal">=</button>
+    </div>
   </div>
 </body>
 </html>
